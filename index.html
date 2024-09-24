@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/index.css">
     <title>AI Generator</title>
 </head>
@@ -11,14 +12,12 @@
     <header>
     <h1>AI Love Poem Generator</h1></header>
     <main>
-        <form >
+        <form id="form">
             <input type="text" placeholder="Enter the topic of the love poem" autofocus required autocomplete="off" class="prompt"/>
             <input type="submit" class="submit-button"/>
         </form>
-        <div class="poem">
-        I do not love you except because I love you;
-        <br/>
-        I go from loving to not loving you,
+        <div class="poem" id="poem">
+        
         </div>
     </main>
     <footer>
